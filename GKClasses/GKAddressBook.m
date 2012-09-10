@@ -25,7 +25,12 @@
 - (id)init{
     if (self = [super init]) {
         CFErrorRef error = NULL;
+        
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < 60000
+        _addressBookRef = ABAddressBookCreate();
+#else
         _addressBookRef = ABAddressBookCreateWithOptions(NULL, &error);
+#endif
         
         if (error) {
             NSLog(@"Couldnot create GKAddressBook, Error %@", error);

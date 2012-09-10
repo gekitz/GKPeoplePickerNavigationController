@@ -7,6 +7,7 @@ It supports **pre selecting a contact** and can **pre fill the search bar**.
 ### How to use it
 
 - just drag and drop the files under "GKClasses" into your project.
+- add the `AddressBook.framework` and `AddressBookUI.framework` to your project
 - look at the sample code below.
 - this project contains a sample project as well, just have a look at the implementation of `ViewController.m` 
 - have fun and follow [@gekitz](http://www.twitter.com/gekitz).

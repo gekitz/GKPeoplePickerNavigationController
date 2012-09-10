@@ -185,7 +185,7 @@
     _footerView.textColor = [UIColor grayColor];
     _footerView.backgroundColor = [UIColor clearColor];
     _footerView.font = [UIFont systemFontOfSize:20];
-    _footerView.textAlignment = NSTextAlignmentCenter;
+    _footerView.textAlignment = UITextAlignmentCenter;
     
     [wrapper addSubview:_footerView];
     [self.tableView setTableFooterView:wrapper];
@@ -241,8 +241,11 @@
     [super viewDidAppear:animated];
     
     if (_prefilledSearchTerm) {
+        
         [_searchBar becomeFirstResponder];
         _searchBar.text = _prefilledSearchTerm;
+        
+        _prefilledSearchTerm = nil;
     }
 }
 

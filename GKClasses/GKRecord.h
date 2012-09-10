@@ -9,6 +9,17 @@
 #import <Foundation/Foundation.h>
 #import <AddressBook/AddressBook.h>
 
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < 60000
+@interface NSObject (PSPDFSubscriptingSupport)
+
+- (id)objectAtIndexedSubscript:(NSUInteger)idx;
+- (void)setObject:(id)obj atIndexedSubscript:(NSUInteger)idx;
+- (void)setObject:(id)obj forKeyedSubscript:(id <NSCopying>)key;
+- (id)objectForKeyedSubscript:(id)key;
+
+@end
+#endif
+
 @interface GKRecord : NSObject{
     ABRecordRef _record;
 }

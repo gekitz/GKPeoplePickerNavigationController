@@ -13,8 +13,6 @@
 		C147038C15FDE90300D0F7E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C147038A15FDE90300D0F7E9 /* InfoPlist.strings */; };
 		C147038E15FDE90300D0F7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C147038D15FDE90300D0F7E9 /* main.m */; };
 		C147039215FDE90300D0F7E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C147039115FDE90300D0F7E9 /* AppDelegate.m */; };
-		C147039515FDE90300D0F7E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C147039415FDE90300D0F7E9 /* ViewController.m */; };
-		C147039815FDE90300D0F7E9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C147039615FDE90300D0F7E9 /* ViewController.xib */; };
 		C14703A715FDE95900D0F7E9 /* GKGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14703A015FDE95900D0F7E9 /* GKGroupViewController.m */; };
 		C14703A815FDE95900D0F7E9 /* GKPeopleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C14703A215FDE95900D0F7E9 /* GKPeopleCell.m */; };
 		C14703A915FDE95900D0F7E9 /* GKPeoplePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14703A415FDE95900D0F7E9 /* GKPeoplePickerNavigationController.m */; };
@@ -28,6 +26,8 @@
 		C1C5D95715FE1114006B6D4E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C5D95615FE1114006B6D4E /* Localizable.strings */; };
 		C1C5D95A15FE1178006B6D4E /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C5D95815FE1178006B6D4E /* me.png */; };
 		C1C5D95B15FE1178006B6D4E /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C5D95915FE1178006B6D4E /* me@2x.png */; };
+		C1D7E74D15FE2A8A00E3A2C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7E74B15FE2A8A00E3A2C5 /* ViewController.m */; };
+		C1D7E74E15FE2A8A00E3A2C5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D7E74C15FE2A8A00E3A2C5 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +41,6 @@
 		C147038F15FDE90300D0F7E9 /* GKPeoplePickerViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKPeoplePickerViewController-Prefix.pch"; sourceTree = "<group>"; };
 		C147039015FDE90300D0F7E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C147039115FDE90300D0F7E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C147039315FDE90300D0F7E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C147039415FDE90300D0F7E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C147039715FDE90300D0F7E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		C147039F15FDE95900D0F7E9 /* GKGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKGroupViewController.h; path = GKClasses/GKGroupViewController.h; sourceTree = "<group>"; };
 		C14703A015FDE95900D0F7E9 /* GKGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKGroupViewController.m; path = GKClasses/GKGroupViewController.m; sourceTree = "<group>"; };
 		C14703A115FDE95900D0F7E9 /* GKPeopleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKPeopleCell.h; path = GKClasses/GKPeopleCell.h; sourceTree = "<group>"; };
@@ -65,6 +62,9 @@
 		C1C5D95615FE1114006B6D4E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = GKClasses/Resources/Localizable.strings; sourceTree = "<group>"; };
 		C1C5D95815FE1178006B6D4E /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = me.png; path = GKClasses/Resources/me.png; sourceTree = "<group>"; };
 		C1C5D95915FE1178006B6D4E /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "me@2x.png"; path = "GKClasses/Resources/me@2x.png"; sourceTree = "<group>"; };
+		C1D7E74A15FE2A8A00E3A2C5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1D7E74B15FE2A8A00E3A2C5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1D7E74C15FE2A8A00E3A2C5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +118,9 @@
 			children = (
 				C147039015FDE90300D0F7E9 /* AppDelegate.h */,
 				C147039115FDE90300D0F7E9 /* AppDelegate.m */,
-				C147039315FDE90300D0F7E9 /* ViewController.h */,
-				C147039415FDE90300D0F7E9 /* ViewController.m */,
-				C147039615FDE90300D0F7E9 /* ViewController.xib */,
+				C1D7E74A15FE2A8A00E3A2C5 /* ViewController.h */,
+				C1D7E74B15FE2A8A00E3A2C5 /* ViewController.m */,
+				C1D7E74C15FE2A8A00E3A2C5 /* ViewController.xib */,
 				C147038815FDE90300D0F7E9 /* Supporting Files */,
 			);
 			name = Sample;
@@ -154,10 +154,10 @@
 				C14703A015FDE95900D0F7E9 /* GKGroupViewController.m */,
 				C14703A115FDE95900D0F7E9 /* GKPeopleCell.h */,
 				C14703A215FDE95900D0F7E9 /* GKPeopleCell.m */,
-				C14703A315FDE95900D0F7E9 /* GKPeoplePickerNavigationController.h */,
-				C14703A415FDE95900D0F7E9 /* GKPeoplePickerNavigationController.m */,
 				C14703A515FDE95900D0F7E9 /* GKPeopleViewController.h */,
 				C14703A615FDE95900D0F7E9 /* GKPeopleViewController.m */,
+				C14703A315FDE95900D0F7E9 /* GKPeoplePickerNavigationController.h */,
+				C14703A415FDE95900D0F7E9 /* GKPeoplePickerNavigationController.m */,
 			);
 			name = GKClasses;
 			sourceTree = "<group>";
@@ -225,10 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C147038C15FDE90300D0F7E9 /* InfoPlist.strings in Resources */,
-				C147039815FDE90300D0F7E9 /* ViewController.xib in Resources */,
 				C1C5D95715FE1114006B6D4E /* Localizable.strings in Resources */,
 				C1C5D95A15FE1178006B6D4E /* me.png in Resources */,
 				C1C5D95B15FE1178006B6D4E /* me@2x.png in Resources */,
+				C1D7E74E15FE2A8A00E3A2C5 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,6 @@
 			files = (
 				C147038E15FDE90300D0F7E9 /* main.m in Sources */,
 				C147039215FDE90300D0F7E9 /* AppDelegate.m in Sources */,
-				C147039515FDE90300D0F7E9 /* ViewController.m in Sources */,
 				C14703A715FDE95900D0F7E9 /* GKGroupViewController.m in Sources */,
 				C14703A815FDE95900D0F7E9 /* GKPeopleCell.m in Sources */,
 				C14703A915FDE95900D0F7E9 /* GKPeoplePickerNavigationController.m in Sources */,
@@ -250,6 +249,7 @@
 				C14703B815FDE9DB00D0F7E9 /* GKContact.m in Sources */,
 				C14703B915FDE9DB00D0F7E9 /* GKGroup.m in Sources */,
 				C14703BA15FDE9DB00D0F7E9 /* GKRecord.m in Sources */,
+				C1D7E74D15FE2A8A00E3A2C5 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +262,6 @@
 				C147038B15FDE90300D0F7E9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C147039615FDE90300D0F7E9 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C147039715FDE90300D0F7E9 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

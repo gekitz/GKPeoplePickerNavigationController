@@ -8,6 +8,7 @@
 
 #import "GKRecord.h"
 
+
 @implementation GKRecord
 
 - (ABRecordID)recordID{

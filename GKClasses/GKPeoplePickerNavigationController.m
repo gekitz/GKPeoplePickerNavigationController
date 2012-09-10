@@ -28,23 +28,28 @@
 #pragma mark -
 #pragma mark Class Methods
 
-+ (ABAuthorizationStatus)addressBookAuthorizationStatus
++ (void)requestAccessToAddressBookWithCompletion:(GKAddressBookRequestAccessCompletionHandler)completion
 {
-    return ABAddressBookGetAuthorizationStatus();
-}
-
-+ (void)requestAccessToAddressBookWithCompletion:(ABAddressBookRequestAccessCompletionHandler)completion
-{
+    
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < 60000
+    
+    if (completion) {
+        completion(true, NULL);
+    }
+    
+#else
     GKAddressBook *addressBook = [[GKAddressBook alloc] init];
     ABAddressBookRequestAccessWithCompletion(addressBook.addressBookRef, ^(bool granted, CFErrorRef error) {
-       
+        
         dispatch_async(dispatch_get_main_queue(), ^{
-           
+            
             if (completion) {
                 completion(granted, error);
             }
         });
     });
+
+#endif
 }
 
 # pragma mark -

@@ -1,5 +1,5 @@
 //
-//  GKViewController.h
+//  ViewController.h
 //  GKPeoplePickerViewController
 //
 //  Created by Georg Kitz on 9/10/12.
@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-- (IBAction)showCustomPicker:(id)sender;
-- (IBAction)showCustomPickerPreSelectPerson:(id)sender;
+- (IBAction)showPeoplePickerPreselectContact:(id)sender;
+- (IBAction)showPeoplePickerPreFilledSearch:(id)sender;
 - (IBAction)showStandardPicker:(id)sender;
 @end
-
