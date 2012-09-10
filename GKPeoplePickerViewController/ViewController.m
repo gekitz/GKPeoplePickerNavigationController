@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Georg Kitz. All rights reserved.
 //
 
-#import "GKViewController.h"
+#import "ViewController.h"
 #import "GKPeoplePickerNavigationController.h"
 
 #import "GKAddressBook.h"
@@ -14,11 +14,11 @@
 
 #import <AddressBookUI/AddressBookUI.h>
 
-@interface GKViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation GKViewController
+@implementation ViewController
 
 #pragma mark -
 #pragma mark Pulblic
@@ -43,7 +43,7 @@
         if (granted) {
             
             GKAddressBook *addressBook = [GKAddressBook new];
-            NSArray *array = [addressBook filterForContactWithName:@"Georg"];
+            NSArray *array = [addressBook filterForContactWithName:@"Georg Kitz"];
             
             GKPeoplePickerNavigationController *ctr = [[GKPeoplePickerNavigationController alloc] init];
             

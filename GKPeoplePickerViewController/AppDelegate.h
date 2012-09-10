@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class GKViewController;
+@class ViewController;
 
-@interface GKAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) GKViewController *viewController;
+@property (strong, nonatomic) ViewController *viewController;
 
 @end

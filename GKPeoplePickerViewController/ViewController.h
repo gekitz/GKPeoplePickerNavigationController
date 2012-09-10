@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GKViewController : UIViewController
+@interface ViewController : UIViewController
 - (IBAction)showCustomPicker:(id)sender;
 - (IBAction)showCustomPickerPreSelectPerson:(id)sender;
 - (IBAction)showStandardPicker:(id)sender;
