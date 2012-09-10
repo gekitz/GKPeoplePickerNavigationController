@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  GKPeoplePickerViewController
+
+  Created by Georg Kitz on 9/10/12.
+  Copyright (c) 2012 Georg Kitz. All rights reserved.
+*/
+
+"GKAllContacts" = "All Contacts";
+"GKAllGroups" = "All Groups";
