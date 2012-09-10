@@ -2,7 +2,9 @@
 
 Ever wanted to customize Apple's ABPeoplePickerNavigationController in some way? You probably figured out that it's quite impossible to do it. I ran into the same issue that's why I wrote a dead simple drop in replacement for it. 
 
-It supports **pre selecting a contact** and can **pre fill the search bar**.
+It supports **pre selecting a contact** and can **pre fill the search bar**. 
+
+It's tested under iOS 5.0 and iOS 6.0 and supports ARC.
 
 ### How to use it
 
